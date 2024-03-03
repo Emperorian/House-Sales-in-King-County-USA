@@ -171,6 +171,7 @@ df['floors'].value_counts
 ```
 ![image](https://github.com/Emperorian/House-Sales-in-King-County-USA/assets/101293550/08ff58a8-0416-45ec-80b0-3c377fb2744f)
 we can now convert the series into a data frame
+
 ![image](https://github.com/Emperorian/House-Sales-in-King-County-USA/assets/101293550/9c8f89e5-8780-4bbd-9fa6-7493f421a53a)
 some numeric presentations can be very clumsy to understand even by bright but visualization makes it easier at first glance. To further buttress the exploratory analysis, a boxplot will be used for clarity. Use the function boxplot in the seaborn library to determine whether houses with a waterfront view or without a waterfront view have more price outliers comparing the price and waterfront. 
 
@@ -297,7 +298,7 @@ Number of samples: After splitting, we see that our testing dataset contains 324
  The number 0.7002744263583341 is the R-squared value, which is a measure of how well the polynomial regression model predicts the house prices for the dataset. In simpler terms, an R-squared value of 0.70 means that around 70% of the variability in house prices can be explained by the features used in the model, such as the number of floors, whether the property has waterfront access, its location (latitude), number of bedrooms, etc.
 
 
-
+:Thanks
 
 
 
